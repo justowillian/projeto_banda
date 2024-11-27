@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('fundo.STR.jpg'); /* Substitua pelo nome correto da sua imagem */
+    background-size: cover; /* Ajusta a imagem para cobrir toda a tela */
+    background-position: center; /* Centraliza a imagem */
+    background-attachment: fixed; /* Faz o fundo ficar fixo enquanto a página rola */
+    background-repeat: no-repeat; /* Impede que a imagem se repita */
+    color: #000000; /* Mantém o texto legível sobre a imagem */
+
+header {
+background-color: #0ccaec;
+padding: 20px;
+text-align: center;
+}
+
+header h1 {
+margin: 0;
+font-size: 2em;
+}
+nav a:hover {
+    color: #1eff00;
+}
+
+
+nav ul {
+list-style-type: none;
+padding: 0;
+}
+
+nav ul li {
+display: inline;
+margin: 0 15px;
+}
+
+nav ul li a {
+text-decoration: none;
+color: #fff;
+}
+
+section {
+padding: 40px;
+text-align: center;
+}
+
+section#home {
+background: linear-gradient(45deg, #ffffff, #ffffff);
+color: #fff;
+}
+
+section#musicas ul {
+list-style-type: none;
+padding: 0;
+}
+
+section#musicas li {
+margin: 10px 0;
+}
+
+footer {
+text-align: center;
+padding: 20px;
+background-color: #0ccaec;;
+}}
+
+.Artista-item img {
+    width: 100%;
+    border-radius: 3px;
+}
+
+.Artista-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.Artista-item {
+    background-color: #000000;
+    border: 2px solid #0ccaec;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+    color: #0ccaec;
+}
+.Artista-item img {
+    width: 100%;
+    border-radius: 3px;
+}
+h1 {
+    color: #000000;
+    text-align: center;
+    margin: 0%;
+    font-size: 30px;
+}
